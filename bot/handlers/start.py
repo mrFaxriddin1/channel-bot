@@ -11,23 +11,21 @@ router = Router()
 
 
 @router.message(CommandStart())
-async def cmd_start(message: Message, session: AsyncSession):
+async def cmd_start(message: Message, session: AsyncSession, _):
     if message.from_user is None:
         return
 
     user = await users_repo.get_user(session, message.from_user.id)
     if user is None:
         await users_repo.create_user(session, message.from_user.id, "uz")
-        await message.answer(t("language.choose"), reply_markup=language_keyboard())
+        await message.answer(_("language.choose"), reply_markup=language_keyboard())
         return
-    await message.answer(
-        t("start.greeting", user.language, name=message.from_user.full_name)
-    )
+    await message.answer(_("start.greeting", name=message.from_user.full_name))
 
 
 @router.message(Command("language"))
-async def cmd_language(message: Message):
-    await message.answer(t("language.choose"), reply_markup=language_keyboard())
+async def cmd_language(message: Message, _):
+    await message.answer(_("language.choose"), reply_markup=language_keyboard())
 
 
 @router.callback_query(F.data.startswith("lang:"))
