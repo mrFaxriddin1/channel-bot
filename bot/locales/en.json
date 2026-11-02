@@ -1,0 +1,5 @@
+{
+  "start.greeting": "Hello, {name}! I'm a channel management bot.",
+  "language.choose": "Choose your language:",
+  "language.changed": "Language changed ✅"
+}
