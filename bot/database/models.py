@@ -15,6 +15,9 @@ class User(Base):
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), server_default=func.now()
     )
+    channels: Mapped[list["Channel"]] = relationship(  # noqa: UP037
+        back_populates="owner"
+    )
 
 
 class Channel(Base):
@@ -28,9 +31,6 @@ class Channel(Base):
     )
 
     owner: Mapped["User"] = relationship(back_populates="channels")  # noqa: UP037
-    channels: Mapped[list["Channel"]] = relationship(  # noqa: UP037
-        back_populates="owner"
-    )
     posts: Mapped[list["Post"]] = relationship(back_populates="channel")  # noqa: UP037
 
 
