@@ -1,0 +1,5 @@
+{
+  "start.greeting": "Привет, {name}! Я бот для управления каналом.",
+  "language.choose": "Выберите язык:",
+  "language.changed": "Язык изменён ✅"
+}
