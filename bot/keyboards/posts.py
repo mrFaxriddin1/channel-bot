@@ -15,3 +15,11 @@ def confirm_keyboard(_):
     builder.button(text=_("post.cancel"), callback_data="post_cancel")
     builder.adjust(2)
     return builder.as_markup()
+
+
+def when_keyboard(_):
+    builder = InlineKeyboardBuilder()
+    builder.button(text=_("post.now"), callback_data="when_now")
+    builder.button(text=_("post.later"), callback_data="when_later")
+    builder.adjust(2)
+    return builder.as_markup()

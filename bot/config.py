@@ -6,6 +6,7 @@ class Settings(BaseSettings):
     database_url: str
     required_channel: str
     admin_id: int
+    timezone: str = "Asia/Tashkent"
 
     model_config = SettingsConfigDict(env_file=".env")
 

@@ -17,5 +17,12 @@
     "post.save": "💾 Saqlash",
     "post.cancel": "❌ Bekor qilish",
     "post.saved": "Post qoralama sifatida saqlandi ✅",
-    "post.cancelled": "Bekor qilindi."
+    "post.cancelled": "Bekor qilindi.",
+    "post.when": "Qachon yuboramiz?",
+    "post.now": "🚀 Hozir",
+    "post.later": "🕒 Rejalashtirish",
+    "post.enter_time": "Vaqtni kiriting: KK.OO.YYYY SS:DD\nMasalan: 25.12.2026 18:30",
+    "post.bad_time": "Format noto'g'ri yoki vaqt o'tib ketgan. Qaytadan kiriting.",
+    "post.scheduled": "Post {time} ga rejalashtirildi ✅",
+    "post.sent_now": "Post yuborildi ✅"
 }
