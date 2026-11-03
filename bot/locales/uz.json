@@ -24,5 +24,10 @@
     "post.enter_time": "Vaqtni kiriting: KK.OO.YYYY SS:DD\nMasalan: 25.12.2026 18:30",
     "post.bad_time": "Format noto'g'ri yoki vaqt o'tib ketgan. Qaytadan kiriting.",
     "post.scheduled": "Post {time} ga rejalashtirildi ✅",
-    "post.sent_now": "Post yuborildi ✅"
+    "post.sent_now": "Post yuborildi ✅",
+    "stats.title": "📊 Statistika",
+    "stats.users": "Foydalanuvchilar: {count}",
+    "stats.posts": "Postlar (holat bo'yicha):",
+    "stats.channels": "Kanallar bo'yicha:",
+    "stats.empty": "Hali ma'lumot yo'q."
 }

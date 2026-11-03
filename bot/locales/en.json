@@ -24,5 +24,10 @@
   "post.enter_time": "Enter time: DD.MM.YYYY HH:MM\nExample: 25.12.2026 18:30",
   "post.bad_time": "Invalid format or the time has passed. Try again.",
   "post.scheduled": "Post scheduled for {time} ✅",
-  "post.sent_now": "Post sent ✅"
+  "post.sent_now": "Post sent ✅",
+  "stats.title": "📊 Statistics",
+  "stats.users": "Users: {count}",
+  "stats.posts": "Posts (by status):",
+  "stats.channels": "By channel:",
+  "stats.empty": "No data yet."
 }
