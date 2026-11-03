@@ -29,5 +29,7 @@
   "stats.users": "Users: {count}",
   "stats.posts": "Posts (by status):",
   "stats.channels": "By channel:",
-  "stats.empty": "No data yet."
+  "stats.empty": "No data yet.",
+  "help.user": "Commands:\n/start - begin\n/language - change language\n/help - help",
+  "help.admin": "\n\nAdmin:\n/addchannel - add a channel\n/newpost - create a post\n/stats - statistics"
 }

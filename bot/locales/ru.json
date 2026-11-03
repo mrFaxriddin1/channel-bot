@@ -29,5 +29,7 @@
   "stats.users": "Пользователей: {count}",
   "stats.posts": "Посты (по статусам):",
   "stats.channels": "По каналам:",
-  "stats.empty": "Данных пока нет."
+  "stats.empty": "Данных пока нет.",
+  "help.user": "Команды:\n/start - начать\n/language - сменить язык\n/help - помощь",
+  "help.admin": "\n\nАдмин:\n/addchannel - добавить канал\n/newpost - создать пост\n/stats - статистика"
 }

@@ -29,5 +29,7 @@
     "stats.users": "Foydalanuvchilar: {count}",
     "stats.posts": "Postlar (holat bo'yicha):",
     "stats.channels": "Kanallar bo'yicha:",
-    "stats.empty": "Hali ma'lumot yo'q."
+    "stats.empty": "Hali ma'lumot yo'q.",
+    "help.user": "Buyruqlar:\n/start - boshlash\n/language - tilni o'zgartirish\n/help - yordam",
+    "help.admin": "\n\nAdmin:\n/addchannel - kanal qo'shish\n/newpost - post yaratish\n/stats - statistika"
 }

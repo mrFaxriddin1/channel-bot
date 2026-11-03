@@ -3,6 +3,7 @@ from aiogram.filters import Command, CommandStart
 from aiogram.types import CallbackQuery, Message
 from sqlalchemy.ext.asyncio import AsyncSession
 
+from bot.config import settings
 from bot.i18n import t
 from bot.keyboards.language import language_keyboard
 from bot.repositories import users as users_repo
@@ -40,3 +41,11 @@ async def on_language_chosen(callback: CallbackQuery, session: AsyncSession):
         await callback.message.edit_text(t("language.changed", lang))
 
     await callback.answer()
+
+
+@router.message(Command("help"))
+async def cmd_help(message: Message, _):
+    text = _("help.user")
+    if message.from_user.id == settings.admin_id:  # type: ignore
+        text += _("help.admin")
+    await message.answer(text)
