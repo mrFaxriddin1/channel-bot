@@ -1,5 +1,9 @@
 {
   "start.greeting": "Hello, {name}! I'm a channel management bot.",
   "language.choose": "Choose your language:",
-  "language.changed": "Language changed ✅"
+  "language.changed": "Language changed ✅",
+  "sub.required": "Please subscribe to our channel to use the bot 👇",
+  "sub.join": "📢 Open channel",
+  "sub.check": "✅ I've subscribed",
+  "sub.still_not": "You haven't subscribed yet ❌"
 }
