@@ -1,5 +1,9 @@
 {
     "start.greeting": "Salom, {name}! Men kanal boshqaruv botiman.",
     "language.choose": "Tilni tanlang:",
-    "language.changed": "Til o'zgartirildi ✅"
+    "language.changed": "Til o'zgartirildi ✅",
+    "sub.required": "Botdan foydalanish uchun kanalimizga a'zo bo'ling 👇",
+    "sub.join": "📢 Kanalga o'tish",
+    "sub.check": "✅ A'zo bo'ldim",
+    "sub.still_not": "Siz hali a'zo bo'lmadingiz ❌"
 }
