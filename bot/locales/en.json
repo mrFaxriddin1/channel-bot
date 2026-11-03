@@ -9,5 +9,13 @@
   "channel.forward": "Forward any post from the channel here.",
   "channel.not_forward": "That's not a forwarded channel post. Try again.",
   "channel.added": "Channel added: {title} ✅",
-  "channel.exists": "This channel is already added."
+  "channel.exists": "This channel is already added.",
+  "post.no_channels": "Add a channel first with /addchannel.",
+  "post.choose_channel": "Which channel is the post for?",
+  "post.send_content": "Send the post text (a photo is fine too).",
+  "post.preview": "Post is ready. Save it?",
+  "post.save": "💾 Save",
+  "post.cancel": "❌ Cancel",
+  "post.saved": "Post saved as draft ✅",
+  "post.cancelled": "Cancelled."
 }

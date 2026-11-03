@@ -56,5 +56,6 @@ class Post(Base):
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True), server_default=func.now()
     )
+    photo_file_id: Mapped[str | None] = mapped_column(String(255))
 
     channel: Mapped["Channel"] = relationship(back_populates="posts")  # noqa: UP037

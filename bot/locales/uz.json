@@ -9,5 +9,13 @@
     "channel.forward": "Kanaldan istalgan postni shu yerga forward qiling.",
     "channel.not_forward": "Bu kanaldan forward qilingan post emas. Qaytadan urinib ko'ring.",
     "channel.added": "Kanal qo'shildi: {title} ✅",
-    "channel.exists": "Bu kanal allaqachon qo'shilgan."
+    "channel.exists": "Bu kanal allaqachon qo'shilgan.",
+    "post.no_channels": "Avval /addchannel orqali kanal qo'shing.",
+    "post.choose_channel": "Qaysi kanalga post yaratamiz?",
+    "post.send_content": "Post matnini yuboring (rasm bilan ham bo'ladi).",
+    "post.preview": "Post tayyor. Saqlaymizmi?",
+    "post.save": "💾 Saqlash",
+    "post.cancel": "❌ Bekor qilish",
+    "post.saved": "Post qoralama sifatida saqlandi ✅",
+    "post.cancelled": "Bekor qilindi."
 }
