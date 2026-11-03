@@ -5,6 +5,7 @@ class Settings(BaseSettings):
     bot_token: str
     database_url: str
     required_channel: str
+    admin_id: int
 
     model_config = SettingsConfigDict(env_file=".env")
 

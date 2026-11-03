@@ -5,5 +5,9 @@
     "sub.required": "Botdan foydalanish uchun kanalimizga a'zo bo'ling 👇",
     "sub.join": "📢 Kanalga o'tish",
     "sub.check": "✅ A'zo bo'ldim",
-    "sub.still_not": "Siz hali a'zo bo'lmadingiz ❌"
+    "sub.still_not": "Siz hali a'zo bo'lmadingiz ❌",
+    "channel.forward": "Kanaldan istalgan postni shu yerga forward qiling.",
+    "channel.not_forward": "Bu kanaldan forward qilingan post emas. Qaytadan urinib ko'ring.",
+    "channel.added": "Kanal qo'shildi: {title} ✅",
+    "channel.exists": "Bu kanal allaqachon qo'shilgan."
 }

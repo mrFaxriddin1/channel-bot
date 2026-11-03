@@ -5,5 +5,9 @@
   "sub.required": "Please subscribe to our channel to use the bot 👇",
   "sub.join": "📢 Open channel",
   "sub.check": "✅ I've subscribed",
-  "sub.still_not": "You haven't subscribed yet ❌"
+  "sub.still_not": "You haven't subscribed yet ❌",
+  "channel.forward": "Forward any post from the channel here.",
+  "channel.not_forward": "That's not a forwarded channel post. Try again.",
+  "channel.added": "Channel added: {title} ✅",
+  "channel.exists": "This channel is already added."
 }
